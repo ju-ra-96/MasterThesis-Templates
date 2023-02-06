@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://burda.sharepoint.com/sites/ISMTeam/Lists/Prfungen/AllItems.aspx",
+      "customActions": {
+        "bae5c64a-bec8-4785-a546-225fc94caa36": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+          }
+        }
+      }
+    },
+    "ExportToPdf": {
+      "pageUrl": "https://burda.sharepoint.com/sites/ISMTeam/_layouts/15/workbench.aspx",
+      "customActions": {
+        "bae5c64a-bec8-4785-a546-225fc94caa36": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+          }
+        }
+      }
+    }
+  }
+}
